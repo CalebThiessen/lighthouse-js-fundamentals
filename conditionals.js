@@ -1,4 +1,4 @@
-const temperature = -3;
+/*const temperature = -3;
 
 if (temperature < 0) {
   console.log("Make sure you pick out a scarf!");
@@ -24,4 +24,22 @@ if (cold) {
   console.log("Make sure you pick out a scarf!");
 }
 
-console.log("Now you're ready to go outside!");
+console.log("Now you're ready to go outside!");*/
+
+// whichSchool
+
+
+
+const whichSchool  = function (age) {
+if (age < 13) {
+  console.log("I am " + age + " Which school should I go to?")
+  console.log("You should attend Elementary School.")
+} else if (age >= 13 && age <= 18) {
+  console.log("I am " + age + " Which school should I go to?")
+  console.log("You should attend Secondary School.")
+} else {
+  console.log("I am " + age + " Which school should I go to?")
+  console.log("You should attend Lighthouse Labs.")
+}
+}
+whichSchool(50);
